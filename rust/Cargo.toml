@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "day01",
+]
+resolver = "2"
+
+
+[workspace.dependencies]
+aoc-traits = { git = "https://github.com/dkales/adventofcode2023-leaderboard", rev = "ac544663758c2dca2ee892fd7ab59419999350dc" }
